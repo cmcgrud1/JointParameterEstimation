@@ -11,7 +11,7 @@ Required packages (excluding anaconda standard packages):
 
 
 Scipts: 
-1) utils.py - Internal package that stores routines that are needed for both 'Juliet_JointFit.py' and 'Photo_RunningJuliet2.py'
+1) utils.py - Internal module that stores routines that are needed for both 'Juliet_JointFit.py' and 'Photo_RunningJuliet2.py'
 2) Juliet_JointFit.py - script used to estimate the system parameters which are the planetary orbital period, stellar mass, RV semi-major amplitude, inclination, planetary radius (relative to stellar radius), Radius of star, semi-major axis of planetary orbit, transit impact parameter, stellar density, and mass of planet.
 3) Photo_RunningJuliet2.py - script used to estimate the host star's rotation period utilizing the multiple different photometric data.
 
