@@ -30,7 +30,7 @@ K_rang = [50.,90.] #assuming unifrom priors in [m/s], assuming systemic velocity
 
 #### PATH INFO
 target = Survey+'-'+ID
-RV_dat_file = str(Survey)+str(ID)+'/'+str(Survey[0])+str(ID)+'_RV_sysCorr.dat'
+RV_dat_file = str(Survey)+str(ID)+'/'+str(Survey[0])+str(ID)+'RV_sysCorr_noRM.dat'
 Fi = 'fix'
 if fit_ecc:
     Fi = 'fit'
