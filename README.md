@@ -32,6 +32,6 @@ Input data (included)- Photo_RunningJuliet2.py:
 3) "WASP6_TESS_binnedOOT.npy" is reduced TESS data, which is also binned, and all data during the WASP-6 transit removed.
 4) Additional inputs must be written in the code directly, in the section titled "INPUT," for specific settings desired.
 
-Output (included)- Photo_RunningJuliet2.py
+Output (included)- Photo_RunningJuliet2.py:
 "binnedTESSnASASSNpass1" (the output folder name is specified in the script "INPUT") is a folder containing the posterior samples and results, Corner plots, and best fit models overplotted on their corresponding datasets.
    Note: The folder 'Juliet' is created to store all photometric monitoring data, and a subfolder with the name of the target (which is an "INPUT" parameter) is created as the code runs.
