@@ -1,0 +1,17 @@
+mflux_TESS           uniform              -0.5,0.5            
+mdilution_TESS       fixed                1.0                 
+sigma_w_TESS         uniform              -200,200            
+GP_B_TESS            uniform              -0.1,0.1            
+GP_C_TESS            loguniform           1e-05,100000.0      
+mflux_ASASSNg        uniform              -0.1,0.1            
+mdilution_ASASSNg    fixed                1.0                 
+sigma_w_ASASSNg      uniform              0.0,80000.0         
+GP_B_ASASSNg         uniform              -0.1,0.1            
+GP_C_ASASSNg         uniform              0.0,9000.0          
+mflux_ASASSNv        uniform              -0.1,0.1            
+mdilution_ASASSNv    fixed                1.0                 
+sigma_w_ASASSNv      uniform              0.0,80000.0         
+GP_B_ASASSNv         uniform              -0.1,0.1            
+GP_C_ASASSNv         uniform              0.0,9000.0          
+GP_L_TESS_ASASSNg_ASASSNv loguniform           1e-06,1000000.0     
+GP_Prot_TESS_ASASSNg_ASASSNv uniform              5,60                
