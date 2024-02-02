@@ -163,7 +163,3 @@ if PlotGPfit:
     print ("Saved 'PhotometricMonitoringGPfit.png' in path '"+OutFolder+"'")
     plt.close()
 
-# ############# To plot the phase folded data, folded on the best period and over plot a fitted sine curve with that period #############
-# if PlotGPfit:
-#     #stuff over here;
-
